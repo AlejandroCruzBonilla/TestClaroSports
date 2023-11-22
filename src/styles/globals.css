@@ -16,6 +16,8 @@ body {
 .header {
   background-color: var(--color-backgroud);
   border-bottom: solid 5px var(--color-primary);
+	position: fixed;
+	width: 100%;
 }
 
 .header__wrapper {
