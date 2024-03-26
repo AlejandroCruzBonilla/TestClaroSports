@@ -25,6 +25,9 @@ export const Layout: NextPage<Props> = ({ seo, children }) => {
       <Head>
         <title>{`Claro Sports | ${title}`}</title>
         <meta name='description' content={description} />
+				<meta property="og:title" content={`Claro Sports | ${title}`}></meta>
+				<meta property="og:description" content={description}></meta>
+				<meta property="og:image" content="/mas-claro-que-nunca1-160012.jpg"></meta>
       </Head>
       <Header />
       <main className={`${exo.className}`}>{children}</main>

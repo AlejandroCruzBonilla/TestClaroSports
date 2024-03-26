@@ -11,7 +11,7 @@ interface TimeLeftInterface {
 export const Counter = () => {
   const targetDate = useMemo(
     () =>
-      DateTime.fromISO('2023-12-01T00:00:00', {
+      DateTime.fromISO('2025-12-01T00:00:00', {
         zone: 'America/Mexico_City',
       }),
     []
